@@ -1,0 +1,41 @@
+:root {
+    /*  Color definitions */
+    --mainBackground: linear-gradient(90deg, rgba(160,229,255,1) 34%, rgba(0,212,255,1) 100%);
+    --mainColor: #0f1b61;
+    --mainColor096: #0f1b6196;
+    --mainColor088: #0f1b6188;
+    --mainBgColor: rgb(228, 241, 253);
+
+    --popupBackground: #5e6184;
+    --popupDarkerBG: #343a75;
+    --popupFLcolor: #4d5deb;
+
+    --buttonHover: #454368;
+    --buttonDark: #26235e;
+    --buttonText: #9896cb;
+    --buttonBorder: #1a193e;
+    --buttonLightBorder:#9896cb;
+
+    --borderLight: #6e7a88;
+    --borderGreen: #0c5f19;
+    --bloodyRed: #6a0909;
+    
+    /* seqson and shoecolors */
+    --initialGrey:#a1a7a3;
+    --springGreen: #126029;
+    --goldenSummer: #cbb245;
+    --brownish: #603713;
+    
+    /*  Site definitions  */
+    /* --mainWidth: 1000px; */
+    --mainWidth: 1000px;
+    --mainHeight: 2000px;
+    --androidWidth: 280px;
+    --androidHeight: 663px;
+    --androidTopFrame: 409px;
+    --androidBottomFrame: 254px;
+    
+    
+    /* definitions not in use  */
+  }
+  

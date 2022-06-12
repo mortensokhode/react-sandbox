@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // eslint-disable-next-line
-import {HashRouter, HashRouter as FirstRouter} from "react-router-dom"
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
