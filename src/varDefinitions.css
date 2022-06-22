@@ -2,45 +2,25 @@
   /*  Color definitions */
   /*  --------------------------  */
   
-  /*  textcolor: */
-  --mainColor: #0f6146;
-  --mainColor095: #0f614695;
-  --mainColor080: #0f614680;
-  --buttonText: #96cba7;
-  --darkColor: #0e413a;
-  --darkSolid: rgba(228, 241, 253, 0);
+  /*  Basic background colors*/
+  --lightBackGround: #f4e7d2;
+  --darkBackGround: #31302c;
   
-  /*  Background colors*/
-  --mainBackground: linear-gradient(90deg, rgb(120, 244, 217) 34%, rgb(7, 125, 105) 100%);
-  --mainBgColor: rgb(221, 254, 247);
-  --subBgColor: #1df1ea38;
-  --popupBackground: #5e846e;
-  --popupDarkerBG: #343a75;
-  --buttonDark: #26235e;
-  --progressBar: #18be8f;
-  
+  /*  textColor: */
+  --lightColor: #f4e7d2;
+  --darkColorFull: #31302c;
+  --darkColorReduced: #31302cba;
 
-    /*  Bordercolors*/
-    --borderLight: #6e8688;
-    --borderGreen: #0c5f46;
-    --subBorderColor: #08575475;
-    --bloodyRed: #6a0909;
-    --buttonBorder: #193e28;
-    --buttonLightBorder:#96cbbd;
-    --headerBox: rgba(211, 249, 255, 0.578);
-
-    /*  Pseudo Element colors  */
-    --buttonHover: #454368;
+    /*  Size definitions  */
+    --mainWidth: 1500px;
+    --mainHeight: 2500px;
+    --toplineSideWidth: 10vw;
+    --middleSectionWidth: 70vw;
+    --ingressBoxWidth: 30vw;
     
-    /*  Site definitions  */
-    /* --mainWidth: 1000px; */
-    --mainWidth: 1000px;
-    --mainHeight: 2000px;
-    --androidWidth: 280px;
-    --androidHeight: 663px;
-    --androidTopFrame: 409px;
-    --androidBottomFrame: 254px;
-    
-    
+    /*   Layout definitions  */
+    --generalRoundCorner: 16px;
+    --evenMoreRoundedCorner: 32px;
+   
   }
   

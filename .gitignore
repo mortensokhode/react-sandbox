@@ -1,22 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/csharp,data,go,phpunit
-# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,data,go,phpunit
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-### Data ###
-*.csv
-*.dat
-*.efx
-*.gbr
-*.key
-*.pps
-*.ppt
-*.pptx
-*.tax2010
-*.vcf
-*.xml
-
-# Images 
-/image
 
 # dependencies
 /node_modules

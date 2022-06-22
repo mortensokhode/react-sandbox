@@ -1,20 +1,15 @@
-import React from 'react'
+import React from 'react';
 import './varDefinitions.css';
-import './AppNy.css';
-// eslint-disable-next-line
-// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-// eslint-disable-next-line
-import Header from './components/header'
-import Skills from './components/skills'
-// import ProjectCarousel from './components/projectCarousel';
+import './App.css';
+import ToplineRoutes from "./components/routes/toplineRoutes";
 
+// Here we go..
 function App() {
   return (
-    <div id="container">
-            <Header></Header>
-            <Skills></Skills>
+    <div className="App">
+      <ToplineRoutes />
     </div>
-        );
+  );
 }
 
 export default App;

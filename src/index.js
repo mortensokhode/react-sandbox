@@ -1,17 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import ReactDOM from "react-dom/client";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// eslint-disable-next-line
-import {HashRouter, HashRouter as FirstRouter} from "react-router-dom"
+import { HashRouter } from "react-router-dom";
 
-ReactDOM.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
-  document.getElementById('root')
+// changed slightly to accommodate the new react-dom version
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
