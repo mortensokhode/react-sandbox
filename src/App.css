@@ -21,15 +21,6 @@ h1 {
   font-size: 3rem;
 }  
 
-h2 {
-  font-size: 2rem;
-  text-align: center;
-}  
-
-h3 {
-  font-size: 1.5rem;
-}  
-
 /*  hovedapplikasjon  */
 .App {
   margin: 0 auto;
@@ -118,16 +109,26 @@ h3 {
 }
 
 .IngressBoks, .IngressOuter {
-  padding: 0;
   width: var(--ingressBoxWidth);
   min-height: 15em;
   height:fit-content;
   background-color: var(--lightBackGround);
   color: var(--darkColorReduced);
   border-radius: var(--generalRoundCorner);
+  text-overflow: clip;
 }
 
-.IngressText {
+.IngressBoks h2 {
+  font-size: clamp(1rem, 2.5vw, 2rem); 
+  margin: 0 auto;
+  padding: 1rem 0;
+}  
+
+.IngressBoks h3 {
+  font-size: clamp(0.6rem, 2vw, 1rem); 
+}  
+
+.IngressText, .IngressHeading {
   animation-name: opacity;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -162,6 +163,7 @@ h3 {
   background-color: var(--lightBackGround);
   color: var(--darkColorReduced);
   border-radius: var(--generalRoundCorner);
+  z-index: 500;
 }
 
 .DetailedText {
@@ -203,6 +205,14 @@ h3 {
   stroke: var(--darkColorFull);
   fill: transparent;
   pointer-events: none;
+}
+
+.responsiveSmallImg {
+  position: auto;
+  margin: 15px 0px 10px 10;
+  padding-top:10px;
+  width: 8vw;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

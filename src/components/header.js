@@ -1,7 +1,8 @@
 import React from 'react'
 import IngressBox from './ingressBox';
 import DetailsBox from './detailsBox';
-import {gitHubHeader, gitHubRepositories} from './gitHubfunction';
+// import {myUrl} from './constExports/globalConstants'; 
+
 
 const Header = () => {
   return (
@@ -11,26 +12,34 @@ const Header = () => {
         <div className='IngressRamme'>
             <div className='IngressOuter blurredShadow' onClick={detailShow}>
                 <div className='IngressBoks'>
-                    <h2 className='IngressText'>
-                        Blaba bladibla Grommelom
+                    <h2 className='IngressHeading'>
+                        "Something No.1"<br /><br />
                     </h2>
                     <h3 className='IngressText'>
-                        Nada innhold
+                        "Text line no.1"  <br />
+                        "Text line no.2"  <br />
+                        "Text line no.3"  <br />
+                        "Text line no.4"  <br />
                     </h3>
                 </div>
             </div>
             <div className='IngressOuter blurredShadow' onClick={detailShow}>
                 <div className='IngressBoks'>
-                    <h2 className='IngressText'>
-                        Ny fiffig overskrift 
-                    </h2><br />
+                <h2 className='IngressHeading'>
+                    "Something No.2"<br /><br />
+                    </h2>
                     <h3 className='IngressText'>
-                        Med enda mer ultrainteressant innhold
+                        "Text line no.1"  <br />
+                        "Text line no.2"  <br />
+                        "Text line no.3"  <br />
+                        "Text line no.4"  <br />
                     </h3>
                 </div>
             </div>
         </div>
+        <div className='IngressRamme'>
             <IngressBox />
+        </div>
             <DetailsBox />
     </div>
   )
@@ -48,6 +57,8 @@ const Header = () => {
           }
       detailsSwitch = !detailsSwitch
   }
+
+
 
   export default Header;
   
